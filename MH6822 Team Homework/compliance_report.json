@@ -1,0 +1,615 @@
+[
+  {
+    "trade_id": "T001",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-FF01",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 50000000,
+      "cleared": true,
+      "uti": "5493001KJTIIGC8Y1R1220241219TRD00001"
+    }
+  },
+  {
+    "trade_id": "T002",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-C-SWAP-CORP",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "EUR",
+      "notional_amount": 10000000,
+      "cleared": false,
+      "uti": "VGRQXHF3J8VDLUA7XE9220250115CDS0001"
+    }
+  },
+  {
+    "trade_id": "T003",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-F-FWD-NDF",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 20000000,
+      "cleared": false,
+      "uti": "1VUV7VQFKUOQSJ21A20820250210FWD0001"
+    }
+  },
+  {
+    "trade_id": "T004",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": false,
+    "upi": "UPI-2026-E-OPT-SNPUT",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [
+      {
+        "severity": "ERROR",
+        "module": "M3",
+        "message": "Critical counterparty LEI marked as MISSING_LEI"
+      }
+    ],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 5000000,
+      "cleared": false,
+      "uti": "5493001KJTIIGC8Y1R1220250301EQ00001"
+    }
+  },
+  {
+    "trade_id": "T005",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-FF01",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [
+      {
+        "severity": "WARNING",
+        "module": "M3",
+        "message": "Deactivated benchmark rate GBP-LIBOR-BBA utilized. Transition to RFR recommended."
+      }
+    ],
+    "classified_fields": {
+      "notional_currency": "GBP",
+      "notional_amount": 75000000,
+      "cleared": true,
+      "uti": "2138002TXD6KSZ3V5X2720250115IRS0001"
+    }
+  },
+  {
+    "trade_id": "T006",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-BS02",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "EUR",
+      "notional_amount": 100000000,
+      "cleared": false,
+      "uti": null
+    }
+  },
+  {
+    "trade_id": "T007",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-M-SWAP-SN",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "XAU",
+      "notional_amount": 5000,
+      "cleared": false,
+      "uti": "4R3ZURLYISNNNMHMK60820250506COM0001"
+    }
+  },
+  {
+    "trade_id": "T008",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-OPT-SWN01",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 200000000,
+      "cleared": false,
+      "uti": "2138002TXD6KSZ3V5X2720250301SWN0001"
+    }
+  },
+  {
+    "trade_id": "T009",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-F-OPT-VANL",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "INVALID_CCY",
+      "notional_amount": 25000000,
+      "cleared": false,
+      "uti": "1VUV7VQFKUOQSJ21A20820251010FXO0001"
+    }
+  },
+  {
+    "trade_id": "T010",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-C-SWAP-INDX",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 30000000,
+      "cleared": true,
+      "uti": "5299000J2N45DDNE4Y2820250115CDX0001"
+    }
+  },
+  {
+    "trade_id": "T011",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-XC03",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 100000000,
+      "cleared": false,
+      "uti": "VGRQXHF3J8VDLUA7XE9220250601XCS0001"
+    }
+  },
+  {
+    "trade_id": "T012",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-E-SWAP-TRS",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 50000000,
+      "cleared": false,
+      "uti": "9695009AXSRNHZE85Y2020250715TRS0001"
+    }
+  },
+  {
+    "trade_id": "T013",
+    "parse_status": "PARTIAL",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-IF05",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [
+      {
+        "severity": "WARNING",
+        "module": "M1",
+        "message": "Missing 'T' separator or timezone (ISO 8601 required)"
+      }
+    ],
+    "classified_fields": {
+      "notional_currency": "GBP",
+      "notional_amount": 25000000,
+      "cleared": false,
+      "uti": "1VUV7VQFKUOQSJ21A20820250901INF0001"
+    }
+  },
+  {
+    "trade_id": "T014",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-F-SWAP-STD",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "AUD",
+      "notional_amount": 40000000,
+      "cleared": false,
+      "uti": "4R3ZURLYISNNNMHMK60820251120FXS0001"
+    }
+  },
+  {
+    "trade_id": "T015",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-CAP-CP01",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 150000000,
+      "cleared": false,
+      "uti": "2138002TXD6KSZ3V5X2720250801CAP0001"
+    }
+  },
+  {
+    "trade_id": "T016",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-E-SWAP-VAR",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "EUR",
+      "notional_amount": 15000000,
+      "cleared": false,
+      "uti": "9695009AXSRNHZE85Y202025091VARSWP01"
+    }
+  },
+  {
+    "trade_id": "T017",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": false,
+    "upi": "UPI-2026-C-SWAP-SOV",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [
+      {
+        "severity": "ERROR",
+        "module": "M3",
+        "message": "Initial margin reported as NULL for an active portfolio (0 must be explicitly specified)"
+      }
+    ],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 20000000,
+      "cleared": false,
+      "uti": "5493001KJTIIGC8Y1R1220251105SOV0001"
+    }
+  },
+  {
+    "trade_id": "T018",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-OI04",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "EUR",
+      "notional_amount": 500000000,
+      "cleared": true,
+      "uti": "VGRQXHF3J8VDLUA7XE9220251201OIS0001"
+    }
+  },
+  {
+    "trade_id": "T019",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-M-OPT-SN",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 10000000,
+      "cleared": false,
+      "uti": "4R3ZURLYISNNNMHMK60820260115OPT0001"
+    }
+  },
+  {
+    "trade_id": "T020",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-F-OPT-BARR",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 30000000,
+      "cleared": false,
+      "uti": "2138002TXD6KSZ3V5X2720260210BRR0001"
+    }
+  },
+  {
+    "trade_id": "T021",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-FF01",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 100000000,
+      "cleared": true,
+      "uti": "5493001KJTIIGC8Y1R12202603010001"
+    }
+  },
+  {
+    "trade_id": "T022",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-C-SWAP-ABS",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 15000000,
+      "cleared": false,
+      "uti": "9695009AXSRNHZE85Y2020260415ABS0001"
+    }
+  },
+  {
+    "trade_id": "T023",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-E-FWD-SN",
+    "jurisdictions": [
+      "MAS"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "SGD",
+      "notional_amount": 8000000,
+      "cleared": false,
+      "uti": "1VUV7VQFKUOQSJ21A20820260501EQF0001"
+    }
+  },
+  {
+    "trade_id": "T024",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-FF01",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "CAD",
+      "notional_amount": 60000000,
+      "cleared": true,
+      "uti": "5299000J2N45DDNE4Y2820260601IRS9999"
+    }
+  },
+  {
+    "trade_id": "T025",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-F-FWD-DELV",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "EUR",
+      "notional_amount": 45000000,
+      "cleared": false,
+      "uti": "VGRQXHF3J8VDLUA7XE9220260701FXF0001"
+    }
+  },
+  {
+    "trade_id": "T026",
+    "parse_status": "SUCCESS",
+    "classification": "NOVEL",
+    "compliant": true,
+    "upi": null,
+    "jurisdictions": [
+      "MAS"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 50000,
+      "cleared": true,
+      "uti": "5493001KJTIIGC8Y1R1220260301EVT00001"
+    }
+  },
+  {
+    "trade_id": "T027",
+    "parse_status": "SUCCESS",
+    "classification": "NOVEL",
+    "compliant": false,
+    "upi": null,
+    "jurisdictions": [
+      "MAS"
+    ],
+    "findings": [
+      {
+        "severity": "ERROR",
+        "module": "M3",
+        "message": "Non-compliant currency code 'USDC' (Stablecoins restricted from trade repository reporting)"
+      }
+    ],
+    "classified_fields": {
+      "notional_currency": "USDC",
+      "notional_amount": 200000,
+      "cleared": false,
+      "uti": null
+    }
+  },
+  {
+    "trade_id": "T028",
+    "parse_status": "SUCCESS",
+    "classification": "NOVEL",
+    "compliant": true,
+    "upi": null,
+    "jurisdictions": [
+      "MAS"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 100000,
+      "cleared": true,
+      "uti": "9695009AXSRNHZE85Y2020260115REG0001"
+    }
+  },
+  {
+    "trade_id": "T029",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-R-SWAP-FF01",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 85000000,
+      "cleared": true,
+      "uti": "5493001KJTIIGC8Y1R1220260801IRS0001"
+    }
+  },
+  {
+    "trade_id": "T030",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": true,
+    "upi": "UPI-2026-M-SWAP-SN",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 12000000,
+      "cleared": false,
+      "uti": "2138002TXD6KSZ3V5X2720260815COM0001"
+    }
+  },
+  {
+    "trade_id": "T031",
+    "parse_status": "SUCCESS",
+    "classification": "NOVEL",
+    "compliant": true,
+    "upi": null,
+    "jurisdictions": [
+      "MAS"
+    ],
+    "findings": [],
+    "classified_fields": {
+      "notional_currency": "USD",
+      "notional_amount": 75000,
+      "cleared": true,
+      "uti": "9695009AXSRNHZE85Y2020260701WTH0001"
+    }
+  },
+  {
+    "trade_id": "T032",
+    "parse_status": "PARTIAL",
+    "classification": "CONVENTIONAL",
+    "compliant": false,
+    "upi": "UPI-2026-F-FWD-DELV",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [
+      {
+        "severity": "WARNING",
+        "module": "M1",
+        "message": "Whitespace used instead of standard 'T' separator"
+      },
+      {
+        "severity": "ERROR",
+        "module": "M3",
+        "message": "UTI namespace prefix mismatch with Reporting Counterparty LEI"
+      }
+    ],
+    "classified_fields": {
+      "notional_currency": "EUR",
+      "notional_amount": 25000000,
+      "cleared": false,
+      "uti": "2138002TXD6KSZ3V5X2720260901FXF0001"
+    }
+  },
+  {
+    "trade_id": "T033",
+    "parse_status": "SUCCESS",
+    "classification": "CONVENTIONAL",
+    "compliant": false,
+    "upi": "UPI-2026-C-SWAP-CORP",
+    "jurisdictions": [
+      "EMIR"
+    ],
+    "findings": [
+      {
+        "severity": "ERROR",
+        "module": "M3",
+        "message": "Non-compliant currency code 'USDC' (Stablecoins restricted from trade repository reporting)"
+      },
+      {
+        "severity": "ERROR",
+        "module": "M3",
+        "message": "Initial margin reported as NULL for an active portfolio (0 must be explicitly specified)"
+      }
+    ],
+    "classified_fields": {
+      "notional_currency": "USDC",
+      "notional_amount": 18000000,
+      "cleared": false,
+      "uti": "VGRQXHF3J8VDLUA7XE9220261001CDS0001"
+    }
+  }
+]
