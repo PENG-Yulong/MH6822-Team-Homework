@@ -12,6 +12,7 @@ Wang Yue (G2505294E), Yu Xuerui (G2505243G), Peng Yulong (G2505383A), Yang Lin (
 | `trades.json` | Test data (33 trades) |
 | `compliance_report.json` | Compliance results (generated after running) |
 | `compliance_dashboard.html` | Visual dashboard (generated after running) |
+| `MH6822-Written Analysis.pdf` | Technical and Regulatory Report |
 | `MH6822 Recorded Presentation.mp4` | https://drive.google.com/file/d/1B7AuiJy9NLlYTF0uneuWBkUM_hmZbYOG/view?usp=sharing |
 ## Requirements
 
