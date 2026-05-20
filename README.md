@@ -2,7 +2,7 @@
 # OTC Derivatives Compliance Engine
 
 ## Team Members:
-Wang Yue (G2505294E), Yu Xuerui (G2505243G), Peng Yulong (G2505383A), Yang Lin (G2506924C)
+Wang Yue (G2505294E, yue024@e.ntu.edu.sg), Yu Xuerui (G2505243G, xuerui002@e.ntu.edu.sg), Peng Yulong (G2505383A, yulong002@e.ntu.edu.sg), Yang Lin (G2506924C, YANG1030@e.ntu.edu.sg)
 
 ## Files
 
